@@ -30,6 +30,7 @@
     "react/require-default-props": "off",
     "no-use-before-define": "off",
     "no-unused-vars": "error",
+    "no-console": "warn",
     "operator-linebreak": "off",
     "object-curly-newline": "off",
     "@typescript-eslint/no-use-before-define": ["error"]
