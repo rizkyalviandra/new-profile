@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Layout from "@uikit/Layout";
 import { NextPage } from "next";
-import Link from "next/link";
 import Head from "next/head";
 import React from "react";
 import {
@@ -16,24 +15,8 @@ import {
 } from "@chakra-ui/react";
 import Section from "@uikit/Section";
 import SocialMediaButton from "@components/SocialMediaButton";
-import SkillCard from "@components/SkillCard";
-import WorkingCard from "@components/WorkingCard";
-import ProjectCard from "@components/ProjectCard";
-import {
-  ProjectCardProps,
-  SkillCardProps,
-  SocialMediaButtonProps,
-  WorkingCardProps,
-} from "src/types";
-import {
-  FaCode,
-  FaCogs,
-  FaDiscord,
-  FaEnvelope,
-  FaGithub,
-  FaLinkedin,
-  FaMobileAlt,
-} from "react-icons/fa";
+import { SocialMediaButtonProps } from "src/types";
+import { FaDiscord, FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
 import WorkingSection from "./components/WorkingSection";
 import ProjectSection from "./components/ProjectSection";
 import SkillSection from "./components/SkillSection";

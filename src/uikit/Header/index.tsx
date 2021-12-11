@@ -1,8 +1,7 @@
 import React from "react";
 import Link from "next/link";
-import { Flex, Grid, GridItem, Heading, HStack } from "@chakra-ui/layout";
-import { Input, Text } from "@chakra-ui/react";
-import { Button, IconButton } from "@chakra-ui/button";
+import { Flex, Grid, GridItem, Heading } from "@chakra-ui/layout";
+import { IconButton } from "@chakra-ui/button";
 import { FaSun, FaMoon } from "react-icons/fa";
 import { useColorMode, useColorModeValue } from "@chakra-ui/color-mode";
 
